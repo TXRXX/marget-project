@@ -1,0 +1,16 @@
+.shops-wrapper {
+    width: 100%;
+}
+
+.grid-container {
+    width: 80%;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    row-gap: 30px;
+    column-gap: 30px;
+}

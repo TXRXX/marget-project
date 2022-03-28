@@ -1,0 +1,110 @@
+.modal-wrapper {
+    /* width: 100%; */
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-wrapper-left {
+    flex: 1.2;
+}
+
+.modal-wrapper-right {
+    flex: 1;
+}
+
+.modal-input {
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: none !important;
+    font-weight: 200;
+    /* background-color: rgb(32,33,36); */
+    border: 1px solid rgb(230, 230, 230) !important;
+
+}
+
+.desc-input {
+    min-height: 150px;
+    max-height: 300px;
+    font-weight: 200;
+}
+
+.contact-input {
+    min-height: 100px;
+    max-height: 100px;
+    font-weight: 200;
+}
+
+.modal-input::placeholder {
+    color: rgb(206, 206, 206);
+}
+
+.modal-input:focus {
+    /* border: 1px solid rgb(184, 184, 184); */
+    border: 1px solid rgb(230, 230, 230) !important;
+    outline: none;
+}
+
+
+.modal-checkbox {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 219) !important;
+    color: rgb(54, 163, 236);
+    /* background-color: rgb(32,33,36); */
+}
+
+.modal-checkbox:focus {
+    /* border: none !important; */
+    border: 1px solid rgb(219, 219, 219) !important;
+}
+
+.add-img-text {
+    margin-left: 10px;
+}
+
+.modal-image {
+    margin-top: 10px;
+}
+
+.mymodal {
+    /* background-color: rgb(54,54,54) !important; */
+}
+
+.modal-label {
+    font-weight: 300;
+}
+
+.modal-close:hover {
+    /* background-color: rgba(255, 255, 255, 0.575); */
+    /* color: white; */
+}
+
+.modal-btn {
+    background-color: rgb(54, 163, 236);
+}
+
+.modal-btn:hover {
+    background-color: rgb(63, 175, 250);
+}
+
+.modal-backdrop {
+    background-color: rgba(37, 37, 37, 0.514);
+}
+
+.upload-btn {
+    background-color: rgb(55,65,81);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.upload-container {
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 20px;
+}

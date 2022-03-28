@@ -1,0 +1,87 @@
+.dashboard-wrapper {
+  height: 100vh;
+}
+
+.btn-wrapper {
+  width: 80%;
+  display: flex;
+  justify-items: center;
+  height: 40px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.status-container {
+  display: block;
+  width: 80%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.308);
+  padding: 20px;
+  flex: 1;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  border-bottom: 1.4px solid rgb(54, 54, 54);
+}
+
+th {
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+td {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+
+tr {
+  /* border-bottom: 1px solid rgb(211, 211, 211); */
+}
+
+.add-shop {
+  display: block;
+  background: rgb(54, 163, 236);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.add-shop:hover {
+  background: rgb(63, 175, 250);
+}
+
+.dashboard-title {
+  font-size: 1.5rem;
+  margin-right: 73%;
+  font-weight: 500;
+}
+
+.manage-icon {
+  font-size: 1.3rem;
+  padding: 0;
+}
+
+.manage-check {
+  color: rgb(110, 223, 166);
+}
+
+.Xmark {
+  color: red;
+}
+
+.no-padding {
+  padding: 0;
+  margin-left: 20px;
+}

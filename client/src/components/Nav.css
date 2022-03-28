@@ -1,0 +1,17 @@
+#dropdown {
+    background-color: rgba(54, 54, 54, 0.9) !important;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.nav-menu {
+    color: white;
+}
+
+.nav-menu:hover {
+    background: rgba(83, 83, 83, 0.596);
+}
+
+.testt {
+    filter: blur(1px);
+}

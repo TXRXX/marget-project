@@ -1,0 +1,6 @@
+export {default as Home} from "./Home/Home"
+export {default as Shops} from "./Shops/Shops"
+export {default as Login} from "./Account/Login"
+export {default as Register} from "./Account/Register"
+export {default as Dashboard} from "./Manage/Dashboard"
+export {default as Controlpanel} from "./Manage/Controlpanel"

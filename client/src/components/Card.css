@@ -1,0 +1,44 @@
+.card {
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.295);
+    transition: .5s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-wrapper {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card-desc {
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    text-indent: 10px;
+}
+
+.card-contact {
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    text-indent: 10px;
+    margin-top: 10px;
+}
